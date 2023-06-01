@@ -9,6 +9,9 @@ function App() {
         <h3 className="myJobTitle">Full Stack Web Developer</h3>
       </header>
       <main>
+      <section className="video-section">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/UCW_UH-k-ec" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
         <section>
           <h2>Experience</h2>
           <div className="job">

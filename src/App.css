@@ -83,7 +83,7 @@ p {
 }
 
 li {
-  padding: 3px;
+  padding: 4px;
 }
 
 /* Footer */
@@ -136,9 +136,9 @@ footer {
 
 
 li span.highlight {
-  background-color: #ffdc73; /* Set the background color for highlighting */
-  color: #000; /* Set the text color for highlighting */
-  padding: 2px;
+  background-color: #f44336; /* Set the background color for highlighting */
+  color: #fff; /* Set the text color for highlighting */
+  padding: 3px;
   border-radius: 4px;
   animation-name: highlightAnimation;
   animation-duration: 25s;
@@ -147,18 +147,13 @@ li span.highlight {
 
 @keyframes highlightAnimation {
   0% {
-    background-color: #ffdc73; /* Starting background color */
-    color: #000;
+    background-color: #f44336; /* Starting background color */
   }
   50% {
-    background-color: #f44336; /* Intermediate background color */
-  }
-  75% {
-    color: #fff;
+    background-color: #7a3cc9; /* Intermediate background color */
   }
   100% {
-    background-color: #ffdc73; /* Ending background color */
-    color: #000;
+    background-color: #f44336; /* Ending background color */
   }
 }
 
@@ -202,4 +197,25 @@ li span.highlight {
     flex-basis: calc(50% - 10px); /* Account for margin */
     margin: 5px;
   }
+}
+
+.video-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.video-section iframe {
+  width: 800px;
+  height: 450px;
+}
+
+.videoTitle {
+  text-align: center;
+}
+
+.videoTitle h2 {
+  font-size: 20pt;
 }
