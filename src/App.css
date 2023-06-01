@@ -135,28 +135,6 @@ footer {
 }
 
 
-li span.highlight {
-  background-color: #f44336; /* Set the background color for highlighting */
-  color: #fff; /* Set the text color for highlighting */
-  padding: 3px;
-  border-radius: 4px;
-  animation-name: highlightAnimation;
-  animation-duration: 25s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes highlightAnimation {
-  0% {
-    background-color: #f44336; /* Starting background color */
-  }
-  50% {
-    background-color: #7a3cc9; /* Intermediate background color */
-  }
-  100% {
-    background-color: #f44336; /* Ending background color */
-  }
-}
-
 /* Job section */
 .job-container {
   display: flex;
@@ -170,6 +148,8 @@ li span.highlight {
   background-color: #f4f4f4;
   border-radius: 8px;
   padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .job h3,
@@ -187,6 +167,10 @@ li span.highlight {
   font-style: italic;
 }
 
+.job + .job {
+  margin-top: 15px;
+}
+
 /* Responsive styles */
 @media (min-width: 600px) {
   .job-container {
@@ -196,6 +180,28 @@ li span.highlight {
   .job {
     flex-basis: calc(50% - 10px); /* Account for margin */
     margin: 5px;
+  }
+}
+
+@media (min-width: 500px) {
+  li span.highlight {
+    color: #8118c7; /* Set the text color for highlighting */
+    font-weight: bold;
+    animation-name: highlightAnimation;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes highlightAnimation {
+    0% {
+      color: #8118c7 /* Starting background color */
+    }
+    50% {
+      color: #e01f12; /* Intermediate background color */
+    }
+    100% {
+      color: #8118c7 /* Ending background color */
+    }
   }
 }
 
