@@ -82,6 +82,10 @@ p {
   line-height: 1.5;
 }
 
+li {
+  padding: 3px;
+}
+
 /* Footer */
 footer {
   background-color: #333;
@@ -125,28 +129,36 @@ footer {
   font-weight: lighter;
 }
 
+.mainContainer h1, 
+.mainContainer p {
+  padding: 10px;
+}
+
+
 li span.highlight {
   background-color: #ffdc73; /* Set the background color for highlighting */
-  color: #333; /* Set the text color for highlighting */
+  color: #000; /* Set the text color for highlighting */
   padding: 2px;
   border-radius: 4px;
   animation-name: highlightAnimation;
-  animation-duration: 8s;
+  animation-duration: 25s;
   animation-iteration-count: infinite;
 }
 
 @keyframes highlightAnimation {
   0% {
     background-color: #ffdc73; /* Starting background color */
-    color: #333;
+    color: #000;
   }
   50% {
     background-color: #f44336; /* Intermediate background color */
+  }
+  75% {
     color: #fff;
   }
   100% {
     background-color: #ffdc73; /* Ending background color */
-    color: #333;
+    color: #000;
   }
 }
 
@@ -173,6 +185,7 @@ li span.highlight {
 .job p {
   margin: 5px 0;
   font-size: 11pt;
+  padding: 0;
 }
 
 .job h4 {
