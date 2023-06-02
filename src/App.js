@@ -1,7 +1,14 @@
 import React from 'react';
 import './App.css';
 
+import { useEffect } from 'react';
+
 function App() {
+  //This is for the page title
+  useEffect(() => {
+    document.title = 'Jimmy Glasscock\'s Portfolio';
+  }, []);
+
   return (
     <div className="mainContainer">
       <header>
@@ -71,7 +78,7 @@ function App() {
         {/* Projects section goes here*/}
         <section>
           <h2>About Me</h2>
-          <p className="aboutMeText">I'm Jimmy Glasscock, a {new Date().getFullYear() % 100} year old Web Developer from Salt Lake City, Utah. I am an extrovert who loves to get to know people. Some of my interests include public speaking, making music and coding. If you like my portfolio, let me know!</p>
+          <p className="aboutMeText">I'm Jimmy Glasscock, a {new Date().getFullYear() % 100} year old Web Developer from Salt Lake City, Utah. I am an extrovert who loves to get to know people. Some of my interests include public speaking, making music and coding. I built this portfolio in React using ChatGPT. If you like my portfolio, let me know!</p>
         </section>
       </main>
       <footer>
