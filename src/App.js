@@ -40,9 +40,9 @@ function App() {
             <h4>RainFocus</h4>
             <p>December 2021 - January 2023</p>
             <ul>
-              <li>Created and maintained frontend pages for an event management platform using <span class="highlight">React.js</span> framework, <span class="highlight">Redux</span> and <span class="highlight">Node.js</span> environment.</li>
+              <li>Created and maintained frontend pages for an event management platform using <span class="highlight">React.js</span> framework, <span class="highlight">Redux</span> and a <span class="highlight">Node.js</span> environment.</li>
               <li>Added and updated functionality for our event management platform using <span class="highlight">Java Spring</span> framework.</li>
-              <li>Used Jenkins platform for testing builds of our event platform.</li>
+              <li>Used Jenkins platform for testing builds.</li>
             </ul>
           </div>
           <div className="job">
