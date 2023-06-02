@@ -7,6 +7,20 @@ function App() {
       <header>
         <h1>Jimmy Glasscock</h1>
         <h3 className="myJobTitle">Full Stack Web Developer</h3>
+        <div className="social-icons">
+            <a href="https://www.github.com/jimmyglasscock" target="_blank" rel="noreferrer">
+              <i className="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/jimmy-glasscock-098958273/" target="_blank" rel="noreferrer">
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:jamesglasscock99@gmail.com" target="_blank" rel="noreferrer">
+              <i className="fa fa-envelope"></i>
+            </a>
+            <a href="https://www.instagram.com/jimmyglasscock" target="_blank" rel="noreferrer">
+              <i className="fab fa-instagram"></i>
+            </a>
+          </div>
       </header>
       <main>
       <section className="video-section">
