@@ -180,28 +180,33 @@ footer {
   .job {
     flex-basis: calc(50% - 10px); /* Account for margin */
     margin: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
 
-@media (min-width: 500px) {
-  li span.highlight {
-    color: #8118c7; /* Set the text color for highlighting */
-    font-weight: bold;
-    animation-name: highlightAnimation;
-    animation-duration: 25s;
-    animation-iteration-count: infinite;
-  }
+li span.highlight {
+  color: #8118c7; /* Set the text color for highlighting */
+  font-weight: bold;
+  animation-name: highlightAnimation;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+}
 
-  @keyframes highlightAnimation {
-    0% {
-      color: #8118c7 /* Starting background color */
-    }
-    50% {
-      color: #e01f12; /* Intermediate background color */
-    }
-    100% {
-      color: #8118c7 /* Ending background color */
-    }
+@keyframes highlightAnimation {
+  0% {
+    color: #8118c7 /* Starting background color */
+  }
+  50% {
+    color: #e01f12; /* Intermediate background color */
+  }
+  100% {
+    color: #8118c7 /* Ending background color */
   }
 }
 
