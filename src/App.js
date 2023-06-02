@@ -54,13 +54,10 @@ function App() {
           </div>
           {/* Add more job sections as needed */}
         </section>
-        <section>
-          <h2>Projects</h2>
-          {/* Your projects details */}
-        </section>
+        {/* Projects section goes here*/}
         <section>
           <h2>About Me</h2>
-          <p className="aboutMeText">Your introduction and brief description.</p>
+          <p className="aboutMeText">I'm Jimmy Glasscock, a {new Date().getFullYear() % 100} year old Web Developer from Salt Lake City, Utah. I am an extrovert who loves to get to know people. Some of my interests include public speaking, making music and coding. If you like my portfolio, let me know!</p>
         </section>
       </main>
       <footer>

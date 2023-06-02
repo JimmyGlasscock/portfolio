@@ -49,11 +49,11 @@ body {
 
 /* Header */
 header {
-  background-color: #333;
+  background-color: #0c194f;
   color: #fff;
   padding: 30px;
   text-align: center;
-  line-height: 0.8;
+  line-height: 0.5;
 }
 
 header h1 {
@@ -88,7 +88,7 @@ li {
 
 /* Footer */
 footer {
-  background-color: #333;
+  background-color: #0c194f;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -125,8 +125,16 @@ footer {
 .myJobTitle {
   font-size: 14pt;
   font-style: italic;
+  color: #b3b3b3;
+  font-weight: lighter;
+}
+
+.myEmail {
+  font-size: 12pt;
+  font-style: italic;
   color: #777;
   font-weight: lighter;
+  padding-top: 15px;
 }
 
 .mainContainer h1, 
@@ -184,7 +192,7 @@ footer {
     margin: 0 auto;
   }
 
-  h2 {
+  h2, .aboutMeText {
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -194,7 +202,7 @@ li span.highlight {
   color: #8118c7; /* Set the text color for highlighting */
   font-weight: bold;
   animation-name: highlightAnimation;
-  animation-duration: 25s;
+  animation-duration: 9s;
   animation-iteration-count: infinite;
 }
 
